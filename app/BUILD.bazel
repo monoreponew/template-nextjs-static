@@ -19,8 +19,9 @@ gcs_deploy(
 filegroup(
     name = "deps",
     srcs = glob([
-        "src/**",
+        "pages/**",
         "public/**",
+        "styles/**",
         "node_modules/**",
     ]) + ["package.json", "package-lock.json"],
 )

@@ -1,1 +1,1 @@
-# Simple React Template
+# Simple Next.js Static Template
